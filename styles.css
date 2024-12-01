@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+}
+.container{
+    position: absolute;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px 5px 80px 5px;
+    width: 80%;
+    padding: 3em;
+}
+.container .agecal{
+    width: 85%;
+    display: flex;
+    column-gap: .1em;
+    border-bottom: 1px solid #979595;
+    margin-bottom: 5rem;
+}
+.container .agecal label{
+    color: rgb(255,64, 64);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container .agecal div{
+    width: 30%;
+    margin-bottom: 3rem;
+}
+.container .agecal input{
+    width: 85%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #979595;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.container button{
+    background: #864dfd;
+    border-radius: 50%;
+    width: 100px;
+    border: none;
+    height: 100px;
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    margin-top: -6.5rem;
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.container .pink{
+    color: #864dfd;
+    font-size: 5rem;
+}
+.container .large{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.day span, .month span, .Year span{
+    color: red;
+    font-size: 10px;
+    font-weight: 600;
+}
